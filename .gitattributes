@@ -1,0 +1,4 @@
+*.dat filter=lfs diff=lfs merge=lfs -crlf
+*.fits filter=lfs diff=lfs merge=lfs -crlf
+*.npy filter=lfs diff=lfs merge=lfs -crlf
+*.gz filter=lfs diff=lfs merge=lfs -crlf
