@@ -1,0 +1,24 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: filename, datatype: string}
+# - {name: instrument, datatype: string}
+# - {name: detector, datatype: int64}
+# schema: astropy-2.0
+filename instrument detector
+detectorMap-sim-b1.fits PFS-F 0
+detectorMap-sim-r1.fits PFS-F 1
+detectorMap-sim-n1.fits PFS-F 2
+detectorMap-sim-m1.fits PFS-F 3
+detectorMap-sim-b2.fits PFS-F 4
+detectorMap-sim-r2.fits PFS-F 5
+detectorMap-sim-n2.fits PFS-F 6
+detectorMap-sim-m2.fits PFS-F 7
+detectorMap-sim-b3.fits PFS-F 8
+detectorMap-sim-r3.fits PFS-F 9
+detectorMap-sim-n3.fits PFS-F 10
+detectorMap-sim-m3.fits PFS-F 11
+detectorMap-sim-b4.fits PFS-F 12
+detectorMap-sim-r4.fits PFS-F 13
+detectorMap-sim-n4.fits PFS-F 14
+detectorMap-sim-m4.fits PFS-F 15
