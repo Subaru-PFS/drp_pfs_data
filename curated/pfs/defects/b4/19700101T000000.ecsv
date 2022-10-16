@@ -20,7 +20,7 @@
 # meta: !!omap
 # - OBSTYPE: defects
 # - INSTRUME: pfs
-# - DETECTOR: 12
+# - DETECTOR: 9
 # - CALIBDATE: '1970-01-01T00:00:00'
 # - FILTER: null
 # - DATE: '2022-02-23T14:58:25'
