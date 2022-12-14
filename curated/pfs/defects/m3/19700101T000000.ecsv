@@ -31,3 +31,7 @@
 # - DEFECTS_SCHEMA_VERSION: 1
 # schema: astropy-2.0
 x0 y0 width height
+0     0     4     4176
+2044  0     8     4176
+4092  0     4     4176
+0     4172  4096  4
