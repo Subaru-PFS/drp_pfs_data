@@ -7,8 +7,8 @@
 #
 # sn	serial	arm at JHU	arm at LAM	arm at MKO
 # sn1	18315	n3		n2	 
-# sn2	18660	n2	 	 
-# sn3	18321	 	 	 
+# sn2	18660	n2	 	                n1 
+# sn3	18321	 	 	                n3
 # sn4	18661
 #
 # This script rearranges the defects directory to agree with the per-site choices; the
@@ -100,9 +100,9 @@ elif [ $lam = 1 ]; then
     cp -r $drpPfsDataDir/nirDefects/sn3 $drpPfsDataDir/curated/pfs/defects/n3	# XXX
     cp -r $drpPfsDataDir/nirDefects/sn4 $drpPfsDataDir/curated/pfs/defects/n4	# XXX
 elif [ $mko = 1 ]; then
-    cp -r $drpPfsDataDir/nirDefects/sn1 $drpPfsDataDir/curated/pfs/defects/n1	# XXX
-    cp -r $drpPfsDataDir/nirDefects/sn2 $drpPfsDataDir/curated/pfs/defects/n2	# XXX
-    cp -r $drpPfsDataDir/nirDefects/sn3 $drpPfsDataDir/curated/pfs/defects/n3	# XXX
+    cp -r $drpPfsDataDir/nirDefects/sn1 $drpPfsDataDir/curated/pfs/defects/n2	# XXX
+    cp -r $drpPfsDataDir/nirDefects/sn2 $drpPfsDataDir/curated/pfs/defects/n1
+    cp -r $drpPfsDataDir/nirDefects/sn3 $drpPfsDataDir/curated/pfs/defects/n3
     cp -r $drpPfsDataDir/nirDefects/sn4 $drpPfsDataDir/curated/pfs/defects/n4	# XXX
 fi
 #
