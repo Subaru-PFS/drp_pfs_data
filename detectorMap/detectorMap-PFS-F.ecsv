@@ -1,0 +1,25 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: filename, datatype: string}
+# - {name: instrument, datatype: string}
+# - {name: arm, datatype: string}
+# - {name: spectrograph, datatype: int64}
+# schema: astropy-2.0
+filename instrument arm spectrograph
+detectorMap-sim-b1.fits PFS-F b 1
+detectorMap-sim-r1.fits PFS-F r 1
+detectorMap-sim-n1.fits PFS-F n 1
+detectorMap-sim-m1.fits PFS-F m 1
+detectorMap-sim-b2.fits PFS-F b 2
+detectorMap-sim-r2.fits PFS-F r 2
+detectorMap-sim-n2.fits PFS-F n 2
+detectorMap-sim-m2.fits PFS-F m 2
+detectorMap-sim-b3.fits PFS-F b 3
+detectorMap-sim-r3.fits PFS-F r 3
+detectorMap-sim-n3.fits PFS-F n 3
+detectorMap-sim-m3.fits PFS-F m 3
+detectorMap-sim-b4.fits PFS-F b 4
+detectorMap-sim-r4.fits PFS-F r 4
+detectorMap-sim-n4.fits PFS-F n 4
+detectorMap-sim-m4.fits PFS-F m 4
