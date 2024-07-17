@@ -5,21 +5,22 @@
 # - {name: instrument, datatype: string}
 # - {name: arm, datatype: string}
 # - {name: spectrograph, datatype: int64}
+# - {name: detector, datatype: int64}
 # schema: astropy-2.0
-filename instrument arm spectrograph
-detectorMap-sim-b1.fits PFS b 1
-detectorMap-sim-r1.fits PFS r 1
-detectorMap-sim-n1.fits PFS n 1
-detectorMap-sim-m1.fits PFS m 1
-detectorMap-sim-b2.fits PFS b 2
-detectorMap-sim-r2.fits PFS r 2
-detectorMap-sim-n2.fits PFS n 2
-detectorMap-sim-m2.fits PFS m 2
-detectorMap-sim-b3.fits PFS b 3
-detectorMap-sim-r3.fits PFS r 3
-detectorMap-sim-n3.fits PFS n 3
-detectorMap-sim-m3.fits PFS m 3
-detectorMap-sim-b4.fits PFS b 4
-detectorMap-sim-r4.fits PFS r 4
-detectorMap-sim-n4.fits PFS n 4
-detectorMap-sim-m4.fits PFS m 4
+filename instrument arm spectrograph detector
+detectorMap-sim-b1.fits PFS b 1 0
+detectorMap-sim-r1.fits PFS r 1 1
+detectorMap-sim-n1.fits PFS n 1 2
+detectorMap-sim-m1.fits PFS m 1 -1
+detectorMap-sim-b2.fits PFS b 2 3
+detectorMap-sim-r2.fits PFS r 2 4
+detectorMap-sim-n2.fits PFS n 2 5
+detectorMap-sim-m2.fits PFS m 2 -4
+detectorMap-sim-b3.fits PFS b 3 6
+detectorMap-sim-r3.fits PFS r 3 7
+detectorMap-sim-n3.fits PFS n 3 8
+detectorMap-sim-m3.fits PFS m 3 -7
+detectorMap-sim-b4.fits PFS b 4 9
+detectorMap-sim-r4.fits PFS r 4 10
+detectorMap-sim-n4.fits PFS n 4 11
+detectorMap-sim-m4.fits PFS m 4 -10
