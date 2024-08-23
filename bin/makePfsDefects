@@ -100,8 +100,8 @@ elif [ $lam = 1 ]; then
     cp -r $drpPfsDataDir/nirDefects/sn3 $drpPfsDataDir/curated/pfs/defects/n3	# XXX
     cp -r $drpPfsDataDir/nirDefects/sn4 $drpPfsDataDir/curated/pfs/defects/n4	# XXX
 elif [ $mko = 1 ]; then
-    cp -r $drpPfsDataDir/nirDefects/sn1 $drpPfsDataDir/curated/pfs/defects/n1	# XXX
-    cp -r $drpPfsDataDir/nirDefects/sn2 $drpPfsDataDir/curated/pfs/defects/n2	# XXX
+    cp -r $drpPfsDataDir/nirDefects/sn1 $drpPfsDataDir/curated/pfs/defects/n2	# XXX
+    cp -r $drpPfsDataDir/nirDefects/sn2 $drpPfsDataDir/curated/pfs/defects/n1	# XXX
     cp -r $drpPfsDataDir/nirDefects/sn3 $drpPfsDataDir/curated/pfs/defects/n3	# XXX
     cp -r $drpPfsDataDir/nirDefects/sn4 $drpPfsDataDir/curated/pfs/defects/n4	# XXX
 fi
