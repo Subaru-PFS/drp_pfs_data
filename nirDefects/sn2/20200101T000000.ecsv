@@ -5,7 +5,7 @@
 # - {name: y0, datatype: int64}
 # - {name: width, datatype: int64}
 # - {name: height, datatype: int64}
-# meta: {AUTHOR: RHL, CALIBCLS: lsst.ip.isr.defects.Defects, DETECTOR: 2, INSTRUME: PFS, OBSTYPE: defects, calibDate: '2020-01-01T00:00:00',
+# meta: {AUTHOR: RHL, CALIBCLS: lsst.ip.isr.defects.Defects, DETECTOR: 2, INSTRUME: PFS, OBSTYPE: defects, CALIBDATE: '2020-01-01T00:00:00',
 #   creationDate: '2023-04-21T07:29:43', defects_SCHEMA: '', defects_VERSION: 2.0, serial: '18660:229'}
 # schema: astropy-2.0
 x0 y0 width height
